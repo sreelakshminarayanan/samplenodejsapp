@@ -3,6 +3,6 @@ describe("Hello World Server", function() {
     expect(true).toBe(true);
   });
   it("Failing test", function() {
-    expect(true).toBe(true);
+    expect(true).toBe(false);
   });
 });
