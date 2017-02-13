@@ -1,3 +1,8 @@
+test:
+  override:
+    - mocha spec --reporter mocha-junit-reporter:
+        environment:
+          MOCHA_FILE: $CIRCLE_TEST_REPORTS/junit/test-results.xml
 notify:
   webhooks:
     # A list of hook hashes, containing the URL field

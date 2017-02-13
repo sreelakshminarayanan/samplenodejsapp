@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.002" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2017-02-13T23:21:38" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Hello World Server" timestamp="2017-02-13T23:21:38" tests="3" file="/Users/sreelakshminarayanan/Sree/LearnCircleCI/samplenodejsapp/spec/helloWorldSpec.js" failures="1" time="0.002">
+    <testcase name="Hello World Server Dummy test" time="0.001" classname="Dummy test">
+    </testcase>
+    <testcase name="Hello World Server Failing test" time="0.001" classname="Failing test">
+      <failure><![CDATA[AssertionError: true == false
+    at Context.<anonymous> (spec/helloWorldSpec.js:7:12)]]></failure>
+    </testcase>
+    <testcase name="Hello World Server Failing test2" time="0" classname="Failing test2">
+    </testcase>
+  </testsuite>
+</testsuites>

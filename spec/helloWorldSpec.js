@@ -1,11 +1,12 @@
+var assert = require('assert');
 describe("Hello World Server", function() {
   it("Dummy test", function() {
-    expect(true).toBe(true);
+    assert.equal(true,true);
   });
   it("Failing test", function() {
-    expect(true).toBe(true);
+    assert.equal(true,false);
   });
   it("Failing test2", function() {
-    expect(true).toBe(false);
+    assert.equal(true,true);
   });
 });
