@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-     "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "dependencies": {
+    "body-parser": "^1.16.1",
     "express": "^4.13.3",
     "jasmine-node": "^1.14.5"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "4.7.2"
   },
   "repository": {
     "type": "git",
