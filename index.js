@@ -11,8 +11,12 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.post('/', jsonParser, function (req, res) {
   if (!req.body) return res.sendStatus(400)
+  console.log("Response is",req.body)
   //console.log("Response is",req.body)
-  console.log("Response is",JSON.stringify(req.body.steps))
+  bodydata = JSON.parse(req.body);
+  console.log("Body data",bodydata);
+  console.log(bodydata.steps);
+  console.log("Stirigy data",JSON.stringify(bodydata.steps))
   res.send(req.body)
   // create user in req.body
 })
