@@ -16,7 +16,7 @@ app.post('/', jsonParser, function (req, res) {
   //bodydata = JSON.parse(req.body);
   console.log("Body data",req.body.payload);
   //console.log(bodydata.steps);
-  console.log("Stirigy data",JSON.stringify(req.body.payload.steps))
+  //console.log("Stirigy data",JSON.stringify(req.body.payload.steps))
   res.send(req.body)
   // create user in req.body
 })

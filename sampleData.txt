@@ -1,0 +1,58 @@
+{
+  "tests" : [ {
+    "classname" : "Dummy test",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec.js",
+    "name" : "Hello World Server Dummy test",
+    "result" : "success",
+    "run_time" : 0.0,
+    "message" : null,
+    "source" : "junit",
+    "source_type" : "junit"
+  }, {
+    "classname" : "Failing test",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec.js",
+    "name" : "Hello World Server Failing test",
+    "result" : "failure",
+    "run_time" : 0.0,
+    "message" : "AssertionError: true == false\n    at Context.<anonymous> (spec/helloWorldSpec.js:7:12)",
+    "source" : "junit",
+    "source_type" : "junit"
+  }, {
+    "classname" : "Failing test2",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec.js",
+    "name" : "Hello World Server Failing test2",
+    "result" : "success",
+    "run_time" : 0.0,
+    "message" : null,
+    "source" : "junit",
+    "source_type" : "junit"
+  }, {
+    "classname" : "Dummy test2",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec2.js",
+    "name" : "Hello World Server2 Dummy test2",
+    "result" : "success",
+    "run_time" : 0.0,
+    "message" : null,
+    "source" : "junit",
+    "source_type" : "junit"
+  }, {
+    "classname" : "Failing test2",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec2.js",
+    "name" : "Hello World Server2 Failing test2",
+    "result" : "failure",
+    "run_time" : 0.0,
+    "message" : "AssertionError: true == false\n    at Context.<anonymous> (spec/helloWorldSpec2.js:7:12)",
+    "source" : "junit",
+    "source_type" : "junit"
+  }, {
+    "classname" : "Failing test22",
+    "file" : "/home/ubuntu/samplenodejsapp/spec/helloWorldSpec2.js",
+    "name" : "Hello World Server2 Failing test22",
+    "result" : "success",
+    "run_time" : 0.0,
+    "message" : null,
+    "source" : "junit",
+    "source_type" : "junit"
+  } ],
+  "exceptions" : [ ]
+}
