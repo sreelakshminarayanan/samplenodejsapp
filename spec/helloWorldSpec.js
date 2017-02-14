@@ -4,7 +4,7 @@ describe("Hello World Server", function() {
     assert.equal(true,true);
   });
   it("Failing test", function() {
-    assert.equal(true,true);
+    assert.equal(true,false);
   });
   it("Failing test2", function() {
     assert.equal(true,true);
