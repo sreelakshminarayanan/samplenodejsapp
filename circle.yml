@@ -6,4 +6,4 @@ test:
 notify:
   webhooks:
     # A list of hook hashes, containing the URL field
-    - url: http://sample-nodejs-app.cfapps.io?projectId=1&gitHubRepositoryId=34&circleCiApiToken=30294923
+    - url: http://sample-nodejs-app.cfapps.io?id=1&chuckid=34&token=30294923

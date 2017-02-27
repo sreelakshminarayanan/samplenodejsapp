@@ -14,7 +14,7 @@ app.post('/', jsonParser, function (req, res) {
   //console.log("Response is",req.body)
   //bodydata = JSON.parse(req.body);
   console.log("Request data", req.query);
-  console.log("Project ID", req.query.projectId);
+  console.log("Project ID", req.query.id);
 
   console.log("Body data",req.body.payload);
 
