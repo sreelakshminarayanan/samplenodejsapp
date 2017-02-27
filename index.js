@@ -11,10 +11,10 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.post('/', jsonParser, function (req, res) {
   if (!req.body) return res.sendStatus(400)
-  console.log("Response is",req.body)
   //console.log("Response is",req.body)
   //bodydata = JSON.parse(req.body);
   console.log("Request data", req.query);
+  console.log("Project ID", req.query.projectId);
 
   console.log("Body data",req.body.payload);
 
